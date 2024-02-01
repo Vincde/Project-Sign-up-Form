@@ -37,16 +37,25 @@ body{
     justify-content: space-between;
 }
 
-#email{
-    margin-left: 44px;
+.forms-container form div{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
 }
-#password{
-    margin-left: 9px;
+
+.forms-container form label{
+    font-size: 12px;
+    letter-spacing: 1px;
 }
 
 .forms-container form,
-.forms-container h2{
+.forms-container h2,
+.forms-container p{
     margin-left: 40px;
+}
+
+.forms-container form div input:invalid{
+    border:2px solid red;
 }
 
 
