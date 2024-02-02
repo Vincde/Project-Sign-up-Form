@@ -1,4 +1,4 @@
-function getPasswordResult(){
+function getCssPasswordCheck(){
     const button1 = document.querySelector('button');
     const pass1 = document.querySelector('#password');
     const pass2 = document.querySelector('#confirm-password')
@@ -16,4 +16,4 @@ function getPasswordResult(){
 
 }
 
-getPasswordResult();
+getCssPasswordCheck();
